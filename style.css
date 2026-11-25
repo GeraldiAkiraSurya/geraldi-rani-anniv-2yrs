@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    color: #1e1e1e;
+    width: 100%;
+    /* width: 100vw; */
+}
+
+.section {
+    width: 100%;
+    height: 110vh;
+}
+
+#section-1 {
+    background-color: #fbf9e7;
+}
+
+#section-1 .top {
+    height: 15%;
+}
+
+#section-1 .top-sub {
+    padding-left: 10vw;
+    font-size: 2.8vh;
+}
+
+#section-1 .body {
+    height: 80%;
+    width: 100%;
+    padding-bottom: 15vh;
+}
+
+#section-1 .body .hero {
+    width: 100%;
+    padding-right: 3%;
+}
+
+#my-lovely {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    text-align: right;
+
+    font-size: 5vh;
+}
+
+#dubdub {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+
+    font-size: 9vh;
+
+    text-align: right;
+
+    color: #fc8f8f;
+}
+
+#section-1 .body .picture {
+    width: 100%;
+}
+
+#section-1 .picture img {
+    width: 20vw;
+    height: auto;
+
+    border-radius: 50px;
+}
+
+#section-2 {
+    background-color: #fc8f8f;
+    color: #ffffff;
+}
+
+#section-2 .top {
+    height: 25%;
+}
+
+#section-2 .top-sub {
+    padding-left: 15vw;
+}
+
+#section-2 .body {
+    height: 75%;
+    width: 100%;
+    padding-bottom: 30vh;
+}
+
+#section-2 .body .dynamic-msg {
+    font-size: 7rem;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#section-3 {
+    background-color: #64242f;
+    color: #dfd9d8;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+
+    height: 110vh;
+}
+
+#section-3 .body {
+    padding-top: 10vw;
+}
+
+#section-3 .image {
+    padding-left: 15vw;
+}
+
+#section-3 img {
+    width: auto;
+    height: 50vh;
+
+    /* border-radius: 50px; */
+}
+
+#section-3 .msg {
+    margin-left: 40px;
+    padding: 2% 0 3% 0;
+}
+
+#section-3 .msg h2 {
+    /* font-size: 1.4rem; */
+}
+
+#section-3 .msg-sub {
+    font-size: 1.2rem;
+}
+
+#section-4 {
+    min-height: 100vh;
+
+    background-image: url("./images/aqua.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    color: #fbf9e7;
+}
+
+#section-4 .body {
+    height: 200vh;
+    padding-top: 35vh;
+    /* text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.307); */
+}
+
+#section-4 .text {
+    font-size: 2rem;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#section-4 .duration {
+    font-size: 2.4rem;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#section-4 .body-2 {
+    height: 160vh;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 0 10% 0 10%;
+}
+
+#section-4 .sub-text {
+    font-size: 2rem;
+}
+
+#section-4 .mid {
+    /* padding: 1rem 0; */
+    /* font-size: 10rem; */
+    text-fit: grow;
+}
+
+#section-5 {
+    /* height: 100vh; */
+
+    color: #ffffff;
+    background-color: #fc8f8f;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#section-5 .body {
+    height: 100%;
+    /* padding-top: 20vh; */
+}
+
+#section-5 .msg {
+    font-size: 3rem;
+}
+
+#footer {
+    height: 7vh;
+
+    background-color: #64242f;
+    color: #ffffff;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
